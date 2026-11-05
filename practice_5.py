@@ -21,13 +21,22 @@ for text in texts:
 print (count)
 
 
-#Repeated letters
+##Repeated letters
 texts = "Bharath"
 repeated = set()
 for letter in texts:
     if texts.count(letter) > 1:
         repeated.add(letter)
 print(repeated)
+
+#Using list 
+repeated = []
+for letter in count:
+    if count[letter] > 1:
+        repeated.append(letter)
+
+print(repeated)
+
 
 #Non Repeated letters
 texts = "Bharath"
