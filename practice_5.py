@@ -1,6 +1,10 @@
 # Ask: “do I want items, or do I want a value for a name?”
-# •	Items (letters, claims, ids): use [] and .append.
-# •	A value for a name (count, total, list under a type): use {} and dict[key] = value.
+# Items (letters, claims, ids): use [] and .append.
+# A value for a name (count, total, list under a type): use {} and dict[key] = value.
+
+# [ ] means “look something up inside”.
+# . means “use this thing’s tool”.
+# ( ) means “run it, with these inputs”.
 
 
 # # Counting
