@@ -1,3 +1,5 @@
+# a loop, an if, .append, a check for whether a key exists yet, and adding to a running total
+
 import json
 
 claim1 = {"claim_id": "C1", "policyholder": {"name": "John", "address": {"city": "Ohio"}}}
