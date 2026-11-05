@@ -4,17 +4,17 @@
 
 
 # # Counting
-# texts = "Bharath"
+texts = "Bharath"
 
-# count = {}
+count = {}
 
-# for text in texts:
-#     if text not in count:
-#         count [text] = 1
-#     else:
-#         count [text] = count [text] + 1
+for text in texts:
+    if text not in count:
+        count [text] = 1
+    else:
+        count [text] = count [text] + 1
 
-# print (count)
+print (count)
 
 
 #Repeated letters
@@ -25,13 +25,13 @@ for letter in texts:
         repeated.add(letter)
 print(repeated)
 
-# #Non Repeated letters
-# texts = "Bharath"
-# repeated = set()
-# for letter in texts:
-#     if texts.count(letter) == 1:
-#         repeated.add(letter)
-# print(repeated)
+#Non Repeated letters
+texts = "Bharath"
+repeated = set()
+for letter in texts:
+    if texts.count(letter) == 1:
+        repeated.add(letter)
+print(repeated)
 
 
 
